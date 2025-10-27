@@ -116,3 +116,17 @@ Páginas disponíveis
 - Análises Interativas de Atributos
   - Top 10 por atributo e “Top 10 por geração e atributo” + botão para baixar CSV da geração selecionada
 
+## Visualizações
+
+<p align="center">
+  <img src="assets/pagina_principal.png" alt="Página Principal" width="900"/>
+</p>
+
+<p align="center">
+  <img src="assets/grafico_radar.png" alt="Radar de Atributos" width="700"/>
+</p>
+
+<p align="center">
+  <img src="assets/grafico_por_tipo.png" alt="Informações por Tipo" width="900"/>
+</p>
+
