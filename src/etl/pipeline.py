@@ -1,3 +1,9 @@
+"""ETL em CSV a partir da API Pokémon.
+
+Extrai dados paginados (pokemons, combats, atributos), trata e salva em
+arquivos CSV sob `data/`, com pequenos sleeps para evitar 429.
+"""
+
 from __future__ import annotations
 
 import math
@@ -251,4 +257,3 @@ def run(per_page: int = 50) -> None:
 if __name__ == "__main__":
     # Validação inicial com per_page=50; depois você pode aumentar conforme necessário.
     run(per_page=50)
-

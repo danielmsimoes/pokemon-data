@@ -1,3 +1,9 @@
+"""Métricas e utilitários de análise.
+
+Carrega CSVs, calcula participações, taxa de vitória e integra com
+atributos para visualizações e análises no Streamlit.
+"""
+
 from __future__ import annotations
 
 from pathlib import Path

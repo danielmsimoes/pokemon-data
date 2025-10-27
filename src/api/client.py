@@ -1,3 +1,9 @@
+"""Cliente HTTP JWT para a API Pokémon.
+
+Responsável por autenticar (login), montar URLs, fazer requisições com
+tratamento simples de erros e respeitar rate-limit (429) com backoff.
+"""
+
 import requests
 import time
 import random

@@ -1,3 +1,9 @@
+"""Leitura de variáveis de ambiente e configuração do app.
+
+Carrega `.env`, garante a pasta `data/` e expõe endpoints/credenciais
+para o cliente de API e o pipeline ETL.
+"""
+
 import os
 from dataclasses import dataclass
 from pathlib import Path
