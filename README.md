@@ -5,11 +5,9 @@ Projeto de dados com foco em:
 - Pipeline ETL (Extração, Transformação e Carga) em CSV
 - Dashboard interativo em Streamlit para explorar resultados
 
-Principais decisões
-- Persistência em CSV no diretório `data/` com separador `;` e encoding `utf-8-sig` (compatível com Excel PT-BR)
-- Tratamento de Rate Limit (HTTP 429) com backoff e pequenos intervalos entre páginas
-- Endpoints parametrizados via `.env`
-- Visualizações em português com foco em clareza e leitura rápida
+Observações
+- O Pokémon ID 63 (Primeape) não é retornado pela API de Pokémons, mas aparece em combates (como ID 63).
+- O gráfico “Informações por Tipo” considera apenas o primeiro tipo do Pokémon como principal, para evitar duplicações e manter comparações consistentes entre os 18 tipos.
 
 ## Estrutura
 
